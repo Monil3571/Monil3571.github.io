@@ -1,0 +1,65 @@
+ <!-- Name: Monilkumar Kantibhai Patel -->
+ <!-- id: 200568505 -->
+<!-- For this assignment i have created four files as asked in the assignment but i have linked all four to a single
+    css file to make them look identical.
+    Also i have displayed the various elements which were asked in the assignment on different pages, for ex: the footer is in home page.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <title>My Personal Webpage</title>
+    <style>
+
+        /* Here i have written embedded  CSS because i need to override the style of the currently active element in the navbar */
+        
+        .Home{
+        border-top-left-radius: 10px ;
+        border-top-right-radius: 10px ;
+        margin-left: 0px;
+        background-color: rgb(208, 208, 208); 
+        }
+            </style>
+</head>
+<body>
+    <section>
+        <!-- This is my main-title where i will insert my first background image -->
+        <div class="Main_title">Monil Patel</div>
+        
+        <!-- I have created a navbar with the help of the div element and have linked all the other 3 files here -->
+        <div class="Navbar">
+                <div class="Home"> Home </div>
+                <div class="AboutMe"> 
+                        <a href="AboutMe.html"> About me </a> 
+                </div>
+                <div class="Portfolio">
+                        <a href="Portfolio.html">Portfolio</a> 
+                </div>
+                <div class="Content"> 
+                    <a href="Contact.html">Contact</a>
+                </div>    
+        </div>
+        <div class="HomeText">
+            <div class="HomeContainer">
+                Greetings!!! <br>
+                Welcome to my first website, <br>
+                This website contains information about Myself along with my projects and my contact information too.<br>
+                I am still developing this website so feel free to give me any helpful suggestions.<br>
+                Thank you and have a nice day !!!<br>
+
+            </div>
+        </div>
+        <div class="Footer">
+            I do not own these cool background images, they are taken from <a class="reference" href="https://coolbackgrounds.io/white-background/">CoolBackgrounds.io</a>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

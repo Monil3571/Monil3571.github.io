@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+.Main_title {
+
+    /* Here i have just added a background image and some styling */
+    text-align: center;
+    height: 500px;
+    color: black;
+    background-color: white;
+    font-size: 150px;
+    font-weight: 550;
+    background-image: url("assets/lines-white.png");
+    background-size: cover;
+    padding-top: 160px;
+}
+
+.Navbar {
+    /* padding: 20px; */
+    /* Here i have used the display flex property to make the items in the navbar horinzontal. */
+    /* Also i have used the position sticky and top 0 property to make the navbar stick to the top no mattter how far we scroll down */
+    display: flex;
+    height: 85px;
+    background-color: rgb(14, 155, 187);
+    position: sticky;
+    top: 0;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.Navbar div {
+    /* margin-top: 10px; */
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.HomeText {
+    padding: 50px;
+    font-size: 30px;
+    padding-left: 70px;
+    background-color: rgb(217, 216, 218);
+    background-image: url(assets/white-mountains.jpg);
+    background-size: cover;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+}
+
+a {
+    padding: 0;
+    margin: 0;
+    text-decoration-line: none;
+}
+
+.Navbar div:hover {
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(14, 155, 187);
+    cursor: pointer;
+}
+
+.HomeContainer {
+    background-color: white;
+    color: black;
+    margin-left: 30%;
+    margin-top: 100px;
+    width: 600px;
+    padding: 100px;
+    line-height: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(rgb(217, 215, 215), rgb(84, 84, 84));
+    font-weight: 600;
+}
+
+.form-container {
+    background-color: white;
+    color: black;
+    margin-left: 30%;
+    margin-top: 100px;
+    width: 600px;
+    padding: 100px;
+    line-height: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(rgb(217, 215, 215), rgb(84, 84, 84));
+    font-weight: 600;
+
+}
+
+form {
+    font-size: 20px;
+}
+
+input,
+select {
+    /* background-color: blue;     */
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+select {
+    margin-left: 24px;
+}
+
+#Email {
+    margin-left: 34px;
+}
+
+button {
+    margin-top: 20px;
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgb(14, 155, 187);
+    /* border: 2px solid black; */
+    border-radius: 4px;
+}
+
+form div {
+    max-width: fit-content;
+}
+
+.Footer {
+    height: 40px;
+    padding: 0px;
+    margin-bottom: 0px;
+    background-color: black;
+    color: rgb(14, 155, 187);
+    position: sticky;
+    bottom: 0;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-weight: 600;
+}
+
+.Project-SS {
+    margin-top: 20px;
+    width: 800px;
+}
+
+.reference {
+    padding: 5px;
+}
+
+.reference:hover {
+
+    border-radius: 15px;
+    background-color: rgb(14, 155, 187);
+    color: black;
+    cursor: pointer;
+}
+
+.Project-link {
+    padding: 5px;
+}
+
+.Project-link:hover {
+
+    border-radius: 15px;
+    background-color: rgb(14, 155, 187);
+    color: black;
+    cursor: pointer;
+}
+
+.aboutMe-Container {
+    display: grid;
+    gap: 25px;
+    column-gap: 50px;
+    margin-top: 50px;
+}
+
+.Socials {
+    border-radius: 4px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 400px;
+    background-color: white;
+    color: rgb(200, 190, 190);
+    width: 200px;
+    padding: 20px;
+    line-height: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(rgb(182, 60, 60), rgb(84, 84, 84));
+    font-weight: 500;
+}
+
+.aboutMe-Content1 {
+    border-radius: 6px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-weight: 500;
+    background-color: white;
+    color: rgb(200, 190, 190);
+    /* width: 200px; */
+    padding: 20px;
+    line-height: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(rgb(182, 60, 60), rgb(84, 84, 84));
+    font-weight: 500;
+}
+
+.aboutMe-Content2 {
+    border-radius: 6px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-weight: 500;
+    background-color: white;
+    color: rgb(200, 190, 190);
+    /* width: 200px; */
+    padding: 20px;
+    line-height: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(rgb(182, 60, 60), rgb(84, 84, 84));
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.Socials a:hover {
+
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(14, 155, 187);
+    color: black;
+    cursor: pointer;
+}
+
+.Github-Logo{
+    background-image: url(assets/github-logo.png);
+    height: 16px;
+    width: 16px;
+    display: block;
+}

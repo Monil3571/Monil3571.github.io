@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <title>My Website</title>
+    <style>
+        .Contact{
+        border-top-left-radius: 10px ;
+        border-top-right-radius: 10px ;
+        margin-left: 0px;
+        background-color: rgb(208, 208, 208); 
+      }
+       </style>
+</head>
+<body>
+    <section>
+        <div class="Main_title">Monil Patel</div>
+        <div class="Navbar">
+                <div class="Home">
+                        <a href="index.html">Home</a> 
+                </div>
+                <div class="AboutMe"> 
+                        <a href="AboutMe.html"> About me </a> 
+                </div>
+                <div class="Portfolio">
+                        <a href="Portfolio.html">Portfolio</a> 
+                </div>
+                <div class="Contact"> 
+                        Contact
+                </div>    
+        </div>
+        <div class="HomeText">
+
+                <div class="form-container">
+                        <form>
+                          <div>
+                            <label for="name">First Name : </label>
+                            <input type="text" id="fName" name="fName">
+                        </div>
+                        <div>
+                                <label for="comment">Last Name : </label>
+                                <input type="text" id="lName" name="lName">
+                        </div>
+                              <div>
+
+                                      <label for="Email">Email : </label>
+                                      <input type="email" id="Email" name="Email">
+                              </div>  
+                        <div>
+                            <label for="Gender"> Gender : </label>
+                            <select name="Gender" id="Gender">
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="NonBinary">Non-Binary</option>
+                                </select>
+                        </div>
+                        
+                        <div>
+                                <label for="Message"> Please leave a message or a suggestion for me : </label>
+                                <textarea id="Message" name="Message">  
+                                </textarea>
+                        </div>
+                                
+                          <button>Save</button>
+                        </form>
+                      </div>
+
+
+        </div>
+    </section>
+    <!-- <script src="app.js"></script> -->
+</body>
+</html>
